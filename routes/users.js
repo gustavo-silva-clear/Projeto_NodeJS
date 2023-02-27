@@ -1,7 +1,7 @@
 let NeDb = require('nedb');
 let db = new NeDb({
     filename:'users.db',
-    autoload:true
+    autoload: true
 });
 
 
